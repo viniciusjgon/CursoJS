@@ -15,8 +15,7 @@ header {
 }
 
 section {
-    background: url(../);
-    background: white ;
+    background-color: white;
     border-radius: 5px;
     padding: 15px;
     width: 500px;
@@ -25,8 +24,33 @@ section {
 
 }
 
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+div#img > img {
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+
+}
+
 footer {
     color: white;
     font-style: italic;
     text-align: center;
 }
+
+/*background: url(dia.jpg);
+background: url(tarde.jpg);
+background: url(noite.jpg);
+height: 350px;
+width: 100%;
+border-radius: 50%;
+background-size: cover;
+max-width:200px;
+max-height:200px;//
